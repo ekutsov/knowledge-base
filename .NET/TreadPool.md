@@ -21,6 +21,10 @@ ThreadPool.RegisterWaitForSingleObject(
 
 Обратите внимание, что в обоих этих примерах ThreadPool автоматически управляет созданием и уничтожением потоков, что может значительно упростить ваш код и повысить производительность.
 
-Вы также можете установить количество рабочих потоков и потоков порта завершения в ThreadPool, вызвав ThreadPool.SetMinThreads(workerThreads, completionPortThreads) и ThreadPool.SetMaxThreads(workerThreads, completionPortThreads). По умолчанию количество рабочих потоков зависит от количества процессоров, а количество потоков порта завершения - от количества процессоров, умноженного на 2.
-
-Переведено с помощью www.DeepL.com/Translator (бесплатная версия)
+Вы также можете установить количество рабочих потоков и потоков порта завершения в ThreadPool, вызвав 
+```cs
+ThreadPool.SetMinThreads(workerThreads, completionPortThreads);
+//and
+ThreadPool.SetMaxThreads(workerThreads, completionPortThreads);
+```
+По умолчанию количество рабочих потоков зависит от количества процессоров, а количество потоков порта завершения - от количества процессоров, умноженного на 2.
