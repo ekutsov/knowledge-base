@@ -1,3 +1,5 @@
-remote_theme: "dracula/gh-pages"
+remote_theme: pages-themes/architect@v0.2.0
+plugins:
+- jekyll-remote-theme
 title: "База знаний для .NET разработчика"
 description: "В данном проекте собранны основыне понятия, необходимые для разработки и собеседований"
