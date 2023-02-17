@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# База знаний
+# Содержание
 
 > **[Базы данных](docs/DataBases/README.md)**
 >
