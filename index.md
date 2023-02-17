@@ -1,13 +1,9 @@
 ---
-#
-# By default, content added below the "---" mark will appear in the home page
-# between the top bar and the list of recent posts.
-# To change the home page layout, edit the _layouts/home.html file.
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-#
 layout: page
 ---
 
 # База знаний
 
-- [Раздел "Базы данных"](DataBases/README.md)
+### [Базы данных](DataBases/README.md)
+### [Основы программирования](Basics/README.md)
+### [Платформа .NET](.NET/README.md)
