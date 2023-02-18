@@ -2,10 +2,12 @@
 
 ### **SQL Join's**
 
-**Входные данные**
+**Входные данные:**
+
 Ниже приведены две таблицы:
 
-1. Customers
+**Customers**
+
 ```sql
 +----------------+-------------+
 | customer_name  | customer_id |
@@ -18,7 +20,7 @@
 ```
 ``customer_id`` - первичный ключ.
 
-2.Orders
+**Orders**
 ```sql
 +------------+------------+----------------+
 | order_id   | order_date | customer_id    |
@@ -36,6 +38,7 @@
 В SQL существует несколько типов объединений, которые можно использовать для объединения данных из нескольких таблиц.
 
 **INNER JOIN**
+
 Этот тип соединения возвращает только те строки, которые имеют совпадающие значения в обеих таблицах.<br><br>
 Запрос.
 ```sql
@@ -53,7 +56,9 @@ ON customers.customer_id = orders.customer_id;
 | Michael Johnson|           3 |          3 | 2020-03-01 |
 +----------------+-------------+------------+------------+
 ```
+
 **LEFT JOIN (или LEFT OUTER JOIN)**
+
 Этот тип объединения возвращает все строки из левой таблицы и совпадающие строки из правой таблицы. Если совпадений нет, то для столбцов правой таблицы будут возвращены значения NULL.<br><br>
 Запрос.
 ```sql
@@ -73,6 +78,7 @@ ON customers.customer_id = orders.customer_id;
 +----------------+-------------+------------+------------+
 ```
 **RIGHT JOIN (или RIGHT OUTER JOIN)**
+
 Этот тип объединения возвращает все строки из правой таблицы и совпадающие строки из левой таблицы. Если совпадений нет, для столбцов левой таблицы возвращаются значения NULL.<br><br>
 Запрос.
 ```sql
@@ -93,6 +99,7 @@ ON customers.customer_id = orders.customer_id;
 ```
 
 **FULL JOIN (или FULL OUTER JOIN)**
+
 Этот тип объединения возвращает все строки из обеих таблиц, включая не совпадающие строки. Если совпадения нет, для несовпадающих столбцов будут возвращены значения NULL.<br><br>
 Запрос.
 ```sql
@@ -113,6 +120,7 @@ ON customers.customer_id = orders.customer_id;
 +----------------+-------------+------------+------------+
 ```
 **CROSS JOIN**
+
 Этот тип соединения возвращает декартово произведение двух таблиц. Он возвращает все возможные комбинации строк из двух таблиц.<br><br>
 Запрос.
 ```sql
@@ -150,24 +158,25 @@ CROSS JOIN orders;
 <br><br>
 Это основные типы объединений в SQL, и приведенные здесь примеры представляют собой базовый синтаксис для каждого типа объединения. В зависимости от условий использования, вам может потребоваться дополнительная фильтрация результатов с помощью предложения WHERE.
 
-### UNION
+**UNION**
+
 Есть еще один оператор не относящийся к JOIN но выполняющий похожую функцию.
 UNION - это оператор SQL, который объединяет набор результатов двух или более операторов SELECT в один набор результатов. Оператор UNION исключает дублирующиеся строки из конечного набора результатов, чего нельзя сказать о JOIN.
 
-For example, if you want to combine the customer_name column from the customers table with the order_date column from the orders table, you would use the following query:
+Например, если вы хотите объединить столбец customer_name из таблицы customers со столбцом order_date из таблицы orders, вы можете использовать следующий запрос:
 ```sql
 SELECT customer_name FROM customers
 UNION
 SELECT order_date FROM orders;
 ```
-As I mentioned before, the column data types of both SELECT statements need to be compatible. If the data types are not compatible, you will get an error.
-Also, you can use UNION ALL instead of UNION to include duplicate rows in the final result set, if you want.
+Как я уже говорил, типы данных столбцов в обоих операторах SELECT должны быть совместимы. Если типы данных несовместимы, вы получите ошибку.
+Кроме того, вы можете использовать UNION ALL вместо UNION, чтобы включить дублирующиеся строки в конечный набор результатов, если хотите.
 ```sql
 SELECT customer_name FROM customers
 UNION ALL
 SELECT order_date FROM orders;
 ```
-This will return the same result as before but with duplicates.
+Это вернет тот же результат, что и раньше, но с дубликатами.
 ```sql
 +----------------+
 | customer_name  | 
