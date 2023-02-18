@@ -1,4 +1,4 @@
-<sub>[Содержание](../../index.md) / [Базы данных](README.md) / **ACID** </sub>
+<sub>[Главная](../../index.md) / [Базы данных](README.md) / **ACID** </sub>
 
 ### **ACID**
 
