@@ -151,23 +151,24 @@ CROSS JOIN orders;
 Это основные типы объединений в SQL, и приведенные здесь примеры представляют собой базовый синтаксис для каждого типа объединения. В зависимости от условий использования, вам может потребоваться дополнительная фильтрация результатов с помощью предложения WHERE.
 
 ### UNION
+
 Есть еще один оператор не относящийся к JOIN но выполняющий похожую функцию.
 UNION - это оператор SQL, который объединяет набор результатов двух или более операторов SELECT в один набор результатов. Оператор UNION исключает дублирующиеся строки из конечного набора результатов, чего нельзя сказать о JOIN.
 
-For example, if you want to combine the customer_name column from the customers table with the order_date column from the orders table, you would use the following query:
+Например, если вы хотите объединить столбец customer_name из таблицы customers со столбцом order_date из таблицы orders, вы можете использовать следующий запрос:
 ```sql
 SELECT customer_name FROM customers
 UNION
 SELECT order_date FROM orders;
 ```
-As I mentioned before, the column data types of both SELECT statements need to be compatible. If the data types are not compatible, you will get an error.
-Also, you can use UNION ALL instead of UNION to include duplicate rows in the final result set, if you want.
+Как я уже говорил, типы данных столбцов в обоих операторах SELECT должны быть совместимы. Если типы данных несовместимы, вы получите ошибку.
+Кроме того, вы можете использовать UNION ALL вместо UNION, чтобы включить дублирующиеся строки в конечный набор результатов, если хотите.
 ```sql
 SELECT customer_name FROM customers
 UNION ALL
 SELECT order_date FROM orders;
 ```
-This will return the same result as before but with duplicates.
+Это вернет тот же результат, что и раньше, но с дубликатами.
 ```sql
 +----------------+
 | customer_name  | 
