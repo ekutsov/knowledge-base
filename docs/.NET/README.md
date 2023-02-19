@@ -1,6 +1,6 @@
-<sub>[Главная](../../index.md) / **.NET** </sub>
+<sub>[Главная](../../index.md) / **Платформа .NET** </sub>
 
-# **.NET**
+# **Платформа .NET**
 
 > ### **[:green_book: Abstract class vs Inteface](AbstractClassAndInteface.md)**
 >
