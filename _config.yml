@@ -1,4 +1,4 @@
-title: База знаний для .NET разработчика
+title: База знаний .NET
 author:
   name: ekutsov
   email: i@ekutsov.ru
@@ -13,6 +13,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jemoji
 
 # Theme-specific settings
 
