@@ -1,4 +1,4 @@
-<sub>[Главная](../../index.md) / [Базы данных](README.md) / **JOIN's** </sub>
+<sub>[Главная](../../index.md) / [Базы данных](README.md) / **SQL JOIN** </sub>
 
 # **SQL Join**
 
