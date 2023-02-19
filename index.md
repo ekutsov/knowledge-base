@@ -10,4 +10,4 @@ layout: page
 >
 > ### **[:file_folder: Основы программирования](docs/Basics/README.md)**
 >
-> ### **[:file_folder: Платформа .NET](docs/.NET/README.md)**
+> ### **[:file_folder: Платформа .NET](docs/Dotnet/README.md)**
