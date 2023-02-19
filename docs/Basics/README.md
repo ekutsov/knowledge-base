@@ -2,10 +2,10 @@
 
 # **Основы программирования**
 
-> ### **[ООП](OOP.md)**
+> ### :open_file_folder: **[Паттерны](Patterns/README.md)** 
 >
-> ### **[SOLID](SOLID.md)**
+> ### :green_book: **[ООП](OOP.md)**
 >
-> ### **[Микросервисы](Microservices.md)**
+> ### :green_book: **[SOLID](SOLID.md)**
 >
-> ### **[Паттерны](Patterns/README.md)**
+> ### :green_book: **[Микросервисы](Microservices.md)**
