@@ -6,12 +6,12 @@
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 
-a {
+blockquote a {
   display: flex;
   align-items: center;
 }
 
-img.emoji {
+blockquote img.emoji {
   margin: 0 10px;
   width: 25px;
   height: 25px;

@@ -2,10 +2,10 @@
 
 # **Базы данных**
 
-> ### **[ACID](ACID.md)**
+> ### **[:green_book: ACID](ACID.md)**
 >
-> ### **[SQL Join](Joins.md)**
+> ### **[:green_book: SQL Join](Joins.md)**
 >
-> ### **[Индексы SQL](Indexes.md)**
+> ### **[:green_book: Индексы SQL](Indexes.md)**
 >
-> ### **[Уровни изоляции транзакций](TransactionIsolationLevels.md)**
+> ### **[:green_book: Уровни изоляции транзакций](TransactionIsolationLevels.md)**
