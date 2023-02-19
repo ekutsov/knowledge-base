@@ -6,8 +6,8 @@ layout: page
 
 # **Главная**
 
-> ### **[Базы данных](docs/DataBases/README.md)**
+> ### :open_file_folder: **[Базы данных](docs/DataBases/README.md)**
 >
-> ### **[Основы программирования](docs/Basics/README.md)**
+> ### :open_file_folder: **[Основы программирования](docs/Basics/README.md)**
 >
-> ### **[Платформа .NET](docs/.NET/README.md)**
+> ### :open_file_folder: **[Платформа .NET](docs/.NET/README.md)**
