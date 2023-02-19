@@ -5,3 +5,5 @@
 > ### **[SOLID](SOLID.md)**
 >
 > ### **[Микросервисы](Microservices.md)**
+>
+> ### **[Паттерны](Patterns/README.md)**
