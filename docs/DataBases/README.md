@@ -8,6 +8,6 @@
 >
 > ### **[:green_book: Индексы SQL](Indexes.md)**
 >
-> ### **[:green_book: Уровни изоляции транзакций](TransactionIsolationLevels.md)**
->
 > ### **[:green_book: Нормальные формы БД](NF.md)**
+>
+> ### **[:green_book: Уровни изоляции транзакций](TransactionIsolationLevels.md)**
