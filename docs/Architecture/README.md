@@ -2,4 +2,6 @@
 
 # **Архитектура**
 
+> ### **[:file_folder: Межсервиснное взаимодействие](CrossServiceInteraction/README.md)** 
+>
 > ### **[:green_book: Микросервисы](Microservices.md)**

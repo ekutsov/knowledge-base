@@ -4,8 +4,8 @@
 
 > ### **[:file_folder: Паттерны](Patterns/README.md)** 
 >
+> ### **[:file_folder: Структуры данных](DataStructures/README.md)** 
+>
 > ### **[:green_book: ООП](OOP.md)**
 >
 > ### **[:green_book: SOLID](SOLID.md)**
->
-> ### **[:green_book: Микросервисы](Microservices.md)**
